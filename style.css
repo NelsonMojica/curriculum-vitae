@@ -1,0 +1,87 @@
+body{  
+        display: flex;
+        width: auto;
+        padding: 10px;
+        background-color: #d9d9d9c9;
+        color: black;
+        font-family: 'Ubuntu', sans-serif;
+        font: size 14px;
+        
+      }
+      
+      @media screen and (min-width: 767px) {
+        body {
+          background-color: #F2F2F2;
+          color: black;
+        }
+      }
+      
+      @media screen and (min-width: 1280px) {
+        body {
+          background-color: #EBEEF2;
+          color:black;
+        }
+      }
+
+      img{
+        border-radius: 360px;
+        max-width:auto;
+    }
+     
+     div.myself{ 
+        float: right;
+        color: #2c77cdeb;
+        font-size:larger;
+        /* margin: 5px; */
+        padding: 10px;
+}
+
+#principal{
+    display:flex;
+    color: #D9B88F; 
+    width: 1000px; 
+
+}
+
+.caja1{
+    background-image:url(lens.jpg) ;
+    background-size:initial;
+
+}
+.caja2{
+    display: flex;
+    /* margin-top:0 30px; */
+    float: left;
+    /* padding: 5px; */
+
+}
+.caja2 div{
+    margin:0 ;
+    float: left;
+    padding: 5px;
+}
+
+@media screen and (max-width:480px){
+    .caja1{
+      width:100%;
+    }
+    
+}
+
+@media screen and (max-width:767px){
+    .caja2{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:1280px){
+    .caja2 div{
+      width: 100%;
+    }
+    
+}
+
+
+
+
